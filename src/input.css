@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+    /* lg-screen */
+    .navbar{
+        @apply h-24;
+        @apply pt-3;
+        @apply pl-5;
+    }
+
+    .logo{
+        @apply text-5xl;
+        @apply pt-2;
+        @apply ml-16;
+    }
+
+    .navbar-links{
+        @apply text-2xl;
+        @apply mr-60;
+        @apply space-x-16;
+    }
+
+    .blog-section{
+        @apply justify-between;
+        @apply p-20;
+        @apply h-lvh;
+        @apply pb-0;
+        @apply mb-0;
+    }
+
+    .blog-paragraph{
+        @apply w-1/2;
+        @apply pt-20;
+    }
+
+    .blog-h1{
+        @apply font-semibold;
+        @apply text-4xl;
+    }
+
+    .blog-p{
+        @apply mt-5;
+        @apply text-xl;
+    }
+
+    .social-media{
+        @apply mt-10;
+        @apply space-x-10;
+        @apply text-4xl;
+    }
+
+    .contact-btn{
+        @apply pb-1;
+        @apply text-xl;
+        @apply h-12;
+        @apply w-40;
+    }
+
+    .image{
+        @apply mt-20;
+        @apply w-96;
+        @apply h-96;
+    }
+
+    .projects-sections{
+        @apply mt-5;
+        @apply pt-28;
+    }
+  
+    .projects-details{
+        @apply p-10;
+        @apply pt-0;
+    }
+
+    .logos{
+        @apply w-20;
+        @apply justify-items-center;
+    }
+
+    /* xl-screen */
+
+    .image-xl{
+        @apply w-full;
+        @apply h-5/6;
+    }
+    
+}
+
+@layer utilities{
+    .blog-section{
+        @apply flex
+    }
+}
+
+@layer base{
+
+}
+
+
+
+/* link hover */
+ul li a:hover{
+    @apply text-sky-400;
+}
+
+ul a:hover{
+    @apply text-gray-600;
+}
+
+/* button hover */
+
+.btn-contact:hover{
+    @apply font-semibold;
+    @apply bg-sky-400 text-white;
+}
