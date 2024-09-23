@@ -613,6 +613,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -623,6 +627,14 @@ video {
 
 .h-16 {
   height: 4rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .w-32 {
@@ -711,6 +723,18 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .text-center {
