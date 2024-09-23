@@ -605,20 +605,16 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .inline-block {
@@ -629,16 +625,12 @@ video {
   display: flex;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-14 {
   height: 3.5rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .w-32 {
@@ -731,18 +723,6 @@ video {
 
 .pt-20 {
   padding-top: 5rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
 }
 
 .text-center {
@@ -852,7 +832,6 @@ ul a:hover {
   .lg\:blog-section {
     justify-content: space-between;
     padding: 5rem;
-    height: 100lvh;
     padding-bottom: 0px;
     margin-bottom: 0px;
   }
@@ -906,6 +885,7 @@ ul a:hover {
   .lg\:projects-sections {
     margin-top: 1.25rem;
     padding-top: 7rem;
+    margin-bottom: -3.5rem;
   }
 
   .lg\:projects-details {
@@ -915,9 +895,18 @@ ul a:hover {
 }
 
 @media (min-width: 1440px) {
+  .xl\:xl-blog-sections {
+    height: 100lvh;
+  }
+
   .xl\:image-xl {
     width: 100%;
     height: 83.333333%;
+  }
+
+  .xl\:xl-project-sections {
+    padding-top: 6rem;
+    margin-bottom: -2.5rem;
   }
 }
 

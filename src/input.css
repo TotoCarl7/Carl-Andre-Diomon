@@ -27,7 +27,6 @@
     .blog-section{
         @apply justify-between;
         @apply p-20;
-        @apply h-lvh;
         @apply pb-0;
         @apply mb-0;
     }
@@ -69,6 +68,7 @@
     .projects-sections{
         @apply mt-5;
         @apply pt-28;
+        @apply -mb-14;
     }
   
     .projects-details{
@@ -83,10 +83,20 @@
 
     /* xl-screen */
 
+    .xl-blog-sections{
+        @apply h-lvh;
+    }
+
     .image-xl{
         @apply w-full;
         @apply h-5/6;
     }
+
+    .xl-project-sections{
+        @apply pt-24;
+        @apply -mb-10;
+    }
+    
     
 }
 
