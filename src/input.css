@@ -102,7 +102,7 @@
 
 @layer utilities{
     .blog-section{
-        @apply flex
+        @apply flex;
     }
 }
 
